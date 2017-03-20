@@ -1,0 +1,9 @@
+@charset "windows-1251";
+/* CSS Document */
+
+*{border:none;}
+.wrap, .body, .header, .search_brand, .footer,  .hfooter #header, .top_nav, .top_razdel, .left_td, .spasibo, .print_button, td.left{display:none;}
+.print_area{display: block; position:absolute; z-index:100; left:0; top:0; background-color:#FFF; width:100%;}
+.print_area{font-size:14px; line-height:18px;}
+.print_area table{margin:10px 0;}
+.print_area td{ padding:5px; vertical-align:top; border:solid 1px #CCC;}
