@@ -118,7 +118,7 @@ input, textarea, select {
     font-family: AgoraLight;
     font-size: 1.1em;
     height: 2.5em;
-    padding: 0 1em;
+    padding: 10px 1em;
     width: 350px;
     border: solid 1px;
 }

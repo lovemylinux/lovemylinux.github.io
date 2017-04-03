@@ -1,0 +1,1 @@
+cat templates/begin.html templates/head.html templates/top.html  templates/footer.html > test.html
