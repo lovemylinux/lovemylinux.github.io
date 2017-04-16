@@ -283,7 +283,7 @@ form.search input[type="submit"] {
 }
 .hMenu a > *,
 .leftMenu a > * {
-    vertical-align: middle;
+    /*vertical-align: middle;*/
 }
 .hMenu a > img,
 .leftMenu a > img {
@@ -450,7 +450,7 @@ main
 .links .title a,
 .links .title:before,
 .links .title:after {
-    display: table-cell;
+    /*display: table-cell;*/
 }
 .links .title:before,
 .links .title:after {
@@ -1141,7 +1141,7 @@ table.shop .card_right .price > span {
 ���� �������
 */
 .footerMenu {
-    border-top: solid 2px;
+    /*border-top: solid 2px;*/
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -1170,7 +1170,7 @@ table.shop .card_right .price > span {
     white-space: nowrap;
 }
 .footer .logo img {
-    max-width: 100px;
+    max-width: 130px;
 }
 .footer .logo span {
     display: inline-block;
@@ -1471,4 +1471,17 @@ text-decoration:none; color:#fff;
 }
 .glossMenu ul li.item {
     margin-left: 0 !important;
+}
+
+/*      */
+
+
+
+
+#PK-300_table-char td, #OK-150table td {
+    padding-left: 5px;
+}
+
+.descr_section {
+    display: none;
 }
