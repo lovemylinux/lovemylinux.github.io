@@ -398,7 +398,7 @@ form.search input[type="submit"] {
 .leftMenu .level-2 > .item,
 .leftMenu .level-3 > .item {
     display: list-item;
-    background: url(../images/marker.png) 0 0.6em no-repeat;
+    /*background: url(../images/marker.png) 0 0.6em no-repeat;*/
     padding-left: 20px;
     margin: 2px 0;
 }
@@ -455,7 +455,7 @@ main
 .links .title:before,
 .links .title:after {
     content: "";
-    background: url(../images/dot2.png) 0 50% repeat-x;
+    /*background: url(../images/dot2.png) 0 50% repeat-x;*/
     min-width: 40%;
     width: 40%;
 }
@@ -630,7 +630,7 @@ table.shop div.clear:first-child {
     left: 5px;
     right: 5px;
     height: 1px;
-    background: url(../images/dot.png) 0 100% repeat-x;
+    /*background: url(../images/dot.png) 0 100% repeat-x;*/
     content: "";
 }
 .good.item .params li > * {
@@ -778,7 +778,7 @@ table.shop .card_right .price > span {
     padding: 0;
 }
 .card .info ul > li {
-    background: url(../images/marker.png) 0 0.6em no-repeat;
+    /*background: url(../images/marker.png) 0 0.6em no-repeat;*/
     padding-left: 20px;
     margin: 0.5em 0;
 }
