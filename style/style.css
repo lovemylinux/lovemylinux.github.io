@@ -392,6 +392,8 @@ form.search input[type="submit"] {
 .leftMenu .level-2 {
     font-family: AgoraLight;
     list-style-type: none;
+    cursor: pointer;
+    display: none;
 }
 .hMenu .level-2 > .item,
 .hMenu .level-3 > .item,
@@ -400,7 +402,7 @@ form.search input[type="submit"] {
     display: list-item;
     /*background: url(../images/marker.png) 0 0.6em no-repeat;*/
     padding-left: 20px;
-    margin: 2px 0;
+    margin: 5px 0;
 }
 .hMenu .level-1 a:hover > span:first-child,
 .hMenu>.level-2 a:hover > span:first-child,
@@ -1484,4 +1486,33 @@ text-decoration:none; color:#fff;
 
 .descr_section {
     display: none;
+}
+
+.inside-exit {
+    position: absolute;
+    cursor: pointer;
+    top: 5%;
+    right: 5%;
+}
+
+.inside-exit img {
+    max-width: 30px; 
+}
+
+.tile.inside {
+    position: relative;
+    display: none;
+}
+
+.inside_item {
+    width: 100%;
+    text-align: left;
+    border: 1px solid grey;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+.inside_item:hover {
+    text-decoration: underline;
+    background: rgba(76, 152, 218, 0.2);
+    border: solid 2px #C8DCED;
 }
