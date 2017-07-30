@@ -1496,7 +1496,7 @@ text-decoration:none; color:#fff;
 }
 
 .inside-exit img {
-    max-width: 30px; 
+    width: 30px; 
 }
 
 .tile.inside {
