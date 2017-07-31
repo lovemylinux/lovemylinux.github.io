@@ -1511,8 +1511,10 @@ text-decoration:none; color:#fff;
     padding: 10px 10px;
     font-size: 15px;
 }
+
 .inside_item:hover {
     text-decoration: underline;
     background: rgba(76, 152, 218, 0.2);
     border: solid 2px #C8DCED;
 }
+

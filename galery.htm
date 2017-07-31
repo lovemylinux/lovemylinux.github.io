@@ -1,16 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>Галерея</title>
-        <meta name="keywords" content="«ВИТЕХНО» , насосы, очаг">
+        <title>Галерея </title>
+        <meta name="keywords" content="витехно, Блок-бокс утепленный, Блок контейнер «Север», Бесклапанный дозирующий насос, Плунжерный бесклапанный насос, Насос для дозирования">
         <meta name="description" content="Краткое описание">
         <meta charset="utf-8">
         <link rel="icon" href="favicon.ico" type="image/png">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link href="js\bootstrap3\css\bootstrap.min.css?r=3.3.65" rel="stylesheet" type="text/css">
         <link href="js\bootstrap3\css\bootstrap-theme.min.css?r=3.3.63" rel="stylesheet" type="text/css">
-        <link href="style\style.css?r=1" rel="stylesheet" type="text/css">
+        <link href="style\style.css?r=4" rel="stylesheet" type="text/css">
         <link href="style\shop.css?r=3" rel="stylesheet" type="text/css">
         <link href="style\print.css" rel="stylesheet" type="text/css" media="print">
         <script type="text/javascript" src="js\jquery.min.js"></script>
@@ -20,6 +20,7 @@
         <script type="text/javascript" src="js\scripts.js"></script>
         <script type="text/javascript" src="js\top_menu.js"></script>
         <script type="text/javascript" src="js\bootstrap3\js\bootstrap.min.js"></script>
+        <script type="text/javascript" src="js\jquery.scrollTo.min.js"></script>
         <script type="text/javascript" src="js\carusel.js"></script>
         <script type="text/javascript" src="jcarousel\lib\jquery.jcarousel.min.js"></script>
         <link rel="stylesheet" href="style\prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8">
@@ -65,10 +66,162 @@
         </div>
             <div class="main">
                 <div class="holder">
-                    <h2 style="font-size:28px">Галерея</h2>
+                    <h1>Галерея</h1>
+                    <table class="shop">
+                        <tr>
+        <td class="contentBlock">
+            <div class="item section tile start">
+                <a style="cursor: pointer;" onclick="showSection('undr')">
+                    <div class="photo"><img src="fotocatalog\cache\undr.jpeg" alt=""></div>
+                    <div class="name">
+                        <span>Бесклапанный плунжерный насос</span><br>
+                        <span>(Установка насосная УН1Д-Р)</span>
+                    </div>
+                </a>
+            </div>
+            <div class="item section tile" id="cell-nasos">
+                <a style="cursor: pointer;" onclick="showSection('station')">
+                    <div class="photo"><img src="fotocatalog\cache\nasos.jpg" alt=""></div>
+                    <div class="name">
+                        <span>Установки насосные дозирующие</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item section tile ">
+                <a style="cursor: pointer;" onclick="showSection('box')">
+                    <div class="photo"><img src="fotocatalog\cache\box.jpg" alt=""></div>
+                    <div class="name">
+                        <span>Блок-боксы</span>
+                    </div>
+                </a>
+            </div>
+            <div class="item section tile">
+                <a style="cursor: pointer;" onclick="showSection('vit')">
+                    <div class="photo"><img src="fotocatalog\cache\vit.jpg" alt=""></div>
+                    <div class="name">
+                        <span>Взрывозащищенные вентиляторы (ViT)</span>
+                    </div>
+                </a>
+            </div>
+            <div class="item section tile" id="cell-parm">
+                <a style="cursor: pointer;" onclick="showSection('parm')">
+                    <div class="photo"><img src="fotocatalog\cache\predohran.jpeg" alt=""></div>
+                    <div class="name">
+                        <span>Предохранительная арматура</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item section tile">
+                <a style="cursor: pointer;" onclick="showSection('rds')">
+                    <div class="photo"><img src="fotocatalog\cache\RDS250.jpeg" alt=""></div>
+                    <div class="name">
+                        <span>Разделители сред РДС</span>
+                    </div>
+                </a>
+            </div>
+            <div class="clear"></div>
+            
+            <div class="clear"></div>
+            <div class="text">
+                <h2 class="descr_section" id="descr_header" style="font-size:28px">Подробное описание продукции</h2>
+                <div style="margin-bottom: 50px" class="descr_section" id="undr">
+                    <a href="galery/nasos/undr-photo1.jpg" rel="prettyPhoto[undr]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/nasos/undr-photo1.jpg" style="height: 300px;"></p>
+                    </a>
+                    <a href="galery/nasos/undr-photo2.jpg" rel="prettyPhoto[undr]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/nasos/undr-photo2.jpg" style="height: 300px;"></p>
+                    </a>
                 </div>
-            </div>      
-        </div>
+                
+                <div style="margin-bottom: 50px" class="descr_section" id="box">
+                    <a href="galery/box/box1.jpg" rel="prettyPhoto[box]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/box/box1.jpg" style="height: 300px;"></p>
+                    </a>
+                    <a href="galery/box/box2.jpg" rel="prettyPhoto[box]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/box/box2.jpg" style="height: 300px;"></p>
+                    </a>
+                    <a href="galery/box/box3.jpg" rel="prettyPhoto[box]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/box/box3.jpg" style="height: 300px;"></p>
+                    </a>
+                    <a href="galery/box/box4.jpg" rel="prettyPhoto[box]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/box/box4.jpg" style="height: 300px;"></p>
+                    </a>
+                </div>
+                
+                <div style="margin-bottom: 50px" class="descr_section" id="vit">
+                    <a href="galery/vit/vit1.jpeg" rel="prettyPhoto[vit]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/vit/vit1.jpeg" style="height: 300px;"></p>
+                    </a>
+                    <a href="galery/vit/vit2.jpeg" rel="prettyPhoto[vit]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/vit/vit2.jpeg" style="height: 300px;"></p>
+                    </a>
+                    <a href="galery/vit/vit3.jpg" rel="prettyPhoto[vit]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/vit/vit3.jpg" style="height: 300px;"></p>
+                    </a>
+                    <a href="galery/vit/vit4.jpg" rel="prettyPhoto[vit]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/vit/vit4.jpg" style="height: 300px;"></p>
+                    </a>
+                    <a href="galery/vit/vit5.jpg" rel="prettyPhoto[vit]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/vit/vit5.jpg" style="height: 300px;"></p>
+                    </a>
+                    <a href="galery/vit/vit6.jpg" rel="prettyPhoto[vit]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/vit/vit6.jpg" style="height: 300px;"></p>
+                    </a>
+                    <a href="galery/vit/vit7.jpg" rel="prettyPhoto[vit]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/vit/vit7.jpg" style="height: 300px;"></p>
+                    </a>
+                    <a href="galery/vit/vit8.jpg" rel="prettyPhoto[vit]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/vit/vit8.jpg" style="height: 300px;"></p>
+                    </a>
+                </div>
+
+                <div style="margin-bottom: 50px" class="descr_section" id="parm">
+                    <a href="galery/parm/ok1.jpeg" rel="prettyPhoto[parm]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/parm/ok1.jpeg" style="height: 300px;"></p>
+                    </a>
+                    <a href="galery/parm/ok2.jpeg" rel="prettyPhoto[parm]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/parm/ok2.jpeg" style="height: 300px;"></p>
+                    </a>
+                    <a href="galery/parm/ok3.jpeg" rel="prettyPhoto[parm]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/parm/ok3.jpeg" style="height: 300px;"></p>
+                    </a>
+                    <a href="galery/parm/ok4.jpeg" rel="prettyPhoto[parm]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/parm/ok4.jpeg" style="height: 300px;"></p>
+                    </a>
+                    <a href="galery/parm/pklapan1.jpeg" rel="prettyPhoto[parm]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/parm/pklapan1.jpeg" style="height: 300px;"></p>
+                    </a>
+                    <a href="galery/parm/pklapan2.jpeg" rel="prettyPhoto[parm]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/parm/pklapan2.jpeg" style="height: 300px;"></p>
+                    </a>
+                </div>
+
+                <div style="margin-bottom: 50px" class="descr_section" id="station">
+                    <a href="galery/station/station1.jpg" rel="prettyPhoto[station]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/station/station1.jpg" style="height: 300px;"></p>
+                    </a>
+                    <a href="galery/station/station2.jpg" rel="prettyPhoto[station]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/station/station2.jpg" style="height: 300px;"></p>
+                    </a>
+                </div>
+
+                <div style="margin-bottom: 50px" class="descr_section" id="rds">
+                    <a href="galery/parm/rds1.jpg" rel="prettyPhoto[rds]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/parm/rds1.jpg" style="height: 300px;"></p>
+                    </a>
+                    <a href="galery/parm/rds2.jpeg" rel="prettyPhoto[rds]" style="width: 50%; text-align: left; vertical-align: bottom;">
+                        <p align="left"><img alt="" src="galery/parm/rds2.jpeg" style="height: 300px;"></p>
+                    </a>
+                </div>
+                
+            </div>
+        </td>
+    </tr>
+</table>
+</div>
+</div>
         <div class="footer">
             <div class="holder footerMenu hMenu gray">
                 <ul rel="0" class="level-0">
@@ -105,12 +258,47 @@
                         </div>
                     </li>
                 </ul>
-                <div class="holder">
-                    <div class="logo" style="width: 100%; display: inline-block;">
-                        <span style="font-size: 15px;">©2017 ООО "ВИТЕХНО" Все права защищены.</span>
+                    <div class="holder">
+                        <div class="logo" style="width: 100%; display: inline-block;">
+                            <span style="font-size: 15px;">©2017 ООО "ВИТЕХНО" Все права защищены.</span>
+                        </div>
                     </div>
-                </div>
             </div>
         </div>
-    </body>
+
+
+        <script type="text/javascript">
+            function mapNames(name) {
+                return ({
+                    'pklapan': 'предохранительного клапана',
+                    'oklapan': 'обратного клапана',
+                    'undr': 'установки УН1Д-Р',
+                    'parm': 'предохранительной арматуры',
+                    'station': 'установки насосные дозирующие',
+                    'BDR': 'блоков дозирования реагента (БДР, БР)',
+                    'PTP': 'установки для ввода (дозирования) противотурбулентной присадки (ПТП)',
+                    'UVDP': 'установки для ввода (дозирования) депрессорных присадок',
+                    'vit': 'взрывозащищенных вентиляторов',
+                    'box': 'блок-боксов',
+                    'rds': 'разделителей сред РДС',
+                    'parm': 'предохранительной арматуры'
+                })[name];
+            }
+
+            function showSection(name) {
+                $('.descr_section').hide();
+                $('#descr_header').html('Фотографии ' + mapNames(name));
+                $('#descr_header').show();
+                $('#' + name).show();
+                $(window).scrollTo($('#descr_header'), {duration: 600});
+            }
+        </script>
+
+        <script type="text/javascript" charset="utf-8">
+                       $(document).ready(function(){
+                         $("a[rel^='prettyPhoto']").prettyPhoto({social_tools:''});
+                       });
+        </script>
+</body>
 </html>
+
