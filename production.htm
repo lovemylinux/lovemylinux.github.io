@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108597026-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-108597026-1');
+        </script>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <title>Продукция </title>
         <meta name="keywords" content="блок-бокс, блок контейнер «Север», бесклапанный дозирующий насос, плунжерный бесклапанный насос, насос для дозирования, бесклапанный насос, витехно">
@@ -97,8 +106,32 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li rel="1443" class="item empty">
-                                            <a rel="1443" style="cursor: pointer;" onclick="showSection('box')"><span>- Блок-боксы</span></a>
+                                        <li rel="1398" class="item empty" id="left-box">
+                                            <a rel="1398" style="cursor: pointer;">
+                                                <span>- Блок-боксы, блочно-модульное оборудование, бытовки</span>
+                                            </a>
+                                            <ul rel="1376" class="level-2">
+                                                <li rel="1557" class="item empty" onclick="showSection('block-box')">
+                                                    <a rel="1557" class="class-item-1557">
+                                                        <span>- Блок-боксы, бытовки</span>
+                                                    </a>
+                                                </li>
+                                                <li rel="1557" class="item empty" onclick="showSection('bmcoteln')">
+                                                    <a rel="1557" class="class-item-1557">
+                                                        <span>- Блочно-модульные котельные</span>
+                                                    </a>
+                                                </li>
+                                                <li rel="1557" class="item empty" onclick="showSection('bmsystvod')">
+                                                    <a rel="1557" class="class-item-1557">
+                                                        <span>- Блочно-модульные системы водоочистки</span>
+                                                    </a>
+                                                </li>
+                                                <li rel="1557" class="item empty" onclick="showSection('lvm')">
+                                                    <a rel="1557" class="class-item-1557">
+                                                        <span>- Склад легко воспламеняющихся жидкостей</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
                                         </li>
                                         <li rel="1417" class="item">
                                             <a rel="1417" style="cursor: pointer;" onclick="showSection('vit')"><span>- Взрывозащищенные вентиляторы</span></a>
@@ -116,6 +149,11 @@
                                                 <li rel="1557" class="item empty" onclick="showSection('oklapan')">
                                                     <a rel="1557" class="class-item-1557">
                                                         <span>- Обратный клапан ОК</span>
+                                                    </a>
+                                                </li>
+                                                <li rel="1557" class="item empty" onclick="showSection('mfilter')">
+                                                    <a rel="1557" class="class-item-1557">
+                                                        <span>- Магнитные фильтра</span>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -138,7 +176,7 @@
             </div>
             <div class="item section tile cover" id="cell-nasos">
                 <a style="cursor: pointer;">
-                    <div class="photo"><img src="galery/station/station1.jpg" alt=""></div>
+                    <div class="photo"><img src="galery/station/station1-min.jpg" alt=""></div>
                     <div class="name">
                         <span>Установки насосные дозирующие</span>
                     </div>
@@ -175,14 +213,53 @@
                     </div>
                 </div>
             <!--  -->
-            <div class="item section tile ">
-                <a style="cursor: pointer;" onclick="showSection('box')">
+            <div class="item section tile cover" id="cell-box">
+                <a style="cursor: pointer;">
                     <div class="photo"><img src="fotocatalog\cache\box.jpg" alt=""></div>
                     <div class="name">
-                        <span>Блок-боксы</span>
+                        <span>Блок-боксы, блочно-модульное оборудование, бытовки</span>
                     </div>
                 </a>
             </div>
+            <!--  -->
+                <div class="item section tile inside" id="inside-box">
+                    <div class="inside-exit" id="exit-box">
+                        <img src="images/cancel.svg">
+                    </div>
+                    <div class="inside_item">
+                        <a style="cursor: pointer;" onclick="showSection('block-box')">
+                            <!-- <div class="photo"><img src="fotocatalog\cache\predohran.jpeg" alt=""></div> -->
+                            <div class="">
+                                <span>Блок-боксы, бытовки</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="inside_item">
+                        <a style="cursor: pointer;" onclick="showSection('bmcoteln')">
+                            <!-- <div class="photo"><img src="fotocatalog\cache\predohran.jpeg" alt=""></div> -->
+                            <div class="">
+                                <span>Блочно-модульные котельные</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="inside_item">
+                        <a style="cursor: pointer;" onclick="showSection('bmsystvod')">
+                            <!-- <div class="photo"><img src="fotocatalog\cache\predohran.jpeg" alt=""></div> -->
+                            <div class="">
+                                <span>Блочно-модульные системы водоочистки</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="inside_item">
+                        <a style="cursor: pointer;" onclick="showSection('lvm')">
+                            <!-- <div class="photo"><img src="fotocatalog\cache\predohran.jpeg" alt=""></div> -->
+                            <div class="">
+                                <span>Склад легко воспламеняющихся жидкостей</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            <!--  -->
             <div class="item section tile">
                 <a style="cursor: pointer;" onclick="showSection('vit')">
                     <div class="photo"><img src="fotocatalog\cache\vit.jpg" alt=""></div>
@@ -217,6 +294,14 @@
                             <!-- <div class="photo"><img src="fotocatalog\cache\predohran.jpeg" alt=""></div> -->
                             <div class="">
                                 <span>Обратный клапан ОК</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="inside_item">
+                        <a style="cursor: pointer;" onclick="showSection('mfilter')">
+                            <!-- <div class="photo"><img src="fotocatalog\cache\predohran.jpeg" alt=""></div> -->
+                            <div class="">
+                                <span>Магнитные фильтра</span>
                             </div>
                         </a>
                     </div>
@@ -728,7 +813,7 @@
                     </p>
                 </div>
                 
-                <div style="margin-bottom: 50px" class="descr_section" id="box">
+                <div style="margin-bottom: 50px" class="descr_section" id="block-box">
                     <h3>Блок-боксы</h3>
                     <p>
                         Производство бытовок.
@@ -779,6 +864,69 @@
                     </p>
                 </div>
                 
+                <div style="margin-bottom: 50px" class="descr_section" id="bmcoteln">
+                    <p>
+                        Блочно-модульные котельные различных мощностей нашли свое применение для
+                        обогрева частных жилых домов и танхаусов, производственных площадей,
+                        фермерских хозяйств и промышленных теплиц. Применение различных
+                        автоматизированных котлов (газовых, угольных, пеллетных, твердотопливных)
+                        установленных в блочно-модульной котельной, являются оптимальным решением -
+                        они дают возможность не жить возле топки, обеспечивают стабильное горение и
+                        высокий общий КПД системы.
+                    </p>
+                    <p>
+                        Для обслуживания такой котельной достаточно одного рабочего, в функции
+                        которого входит контроль за работой блочно-модульной котельной.
+                    </p>
+                    <p>
+                        Теплоснабжение производственных предприятий с помощью автоматизированных
+                        Блочно-модульных котельных характеризуется низкой себестоимостью тепла и
+                        независимостью от внешних поставщиков тепла.
+                    </p>
+                    <p>
+                        Отопление частных жилых домов и коттеджей
+                    </p>
+                    <p>
+                        Для частного применения подходят автоматические модульные котельные
+                        небольших мощностей (20, 30, 40, 80 кВт). Плюсы применения таких котельных
+                        очевидны:
+                    </p>
+                    <ul>
+                        <li>
+                            за счет автоматизации они избавляют своих владельцев от необходимости в
+                            постоянном контроле;
+                        </li>
+                        <li>
+                            для устройства котельной, не нужно оборудовать в доме отдельное
+                            помещение, что избавить Ваш дом от грязи, пыли и неприятных запахов;
+                        </li>
+                        <li>
+                            это экономия времени и средств, т.к. не требуются разного рода
+                            согласования (в отличие от подключения газа или центрального отопления), и
+                            Вы платите только за реально потребленное тепло;
+                        </li>
+                        <li>
+                            возможность подключение нескольких потребителей (подключение нескольких
+                            частных домов, в том числе с разным уровнем потребления тепла);
+                        </li>
+                        <li>
+                            обеспечение теплом и горячим водоснабжением;
+                        </li>
+                        <li>
+                            пожаробезопасность;
+                        </li>
+                        <li>
+                            мобильность, готовое решение в заводских условиях!
+                        </li>
+                    </ul>
+                </div>
+
+                <div style="margin-bottom: 50px" class="descr_section" id="bmsystvod"> 
+                </div>
+
+                <div style="margin-bottom: 50px" class="descr_section" id="lvm"> 
+                </div>
+
                 <div style="margin-bottom: 50px" class="descr_section" id="vit">
                     <p align="center">
                         <strong></strong>
@@ -2204,6 +2352,59 @@
                     </p>
                 </div>
 
+                <div style="margin-bottom: 50px" class="descr_section" id="mfilter">
+                    <p>
+                        Изготавливаются с условным проходом (Ду) 20мм, 35мм, 40мм, 50мм, 65мм.
+                    </p>
+                    <p>
+                        Предназначены для улавливания механических примесей в рабочей среде.
+                    </p>
+                    <p>
+                        Фильтры магнитно-механические широко зарекомендовали себя на стальных,
+                        чугунных и пластиковых трубопроводах различных систем. Направление потока
+                        рабочей среды должно совпадать с направлением стрелки на корпусе магнитного
+                        фильтра. Несомненно, фильтр магнитный является важным элементом
+                        трубопроводной арматуры, поскольку защищает насосное оборудование от
+                        воздействия металлических частиц.
+                    </p>
+                    <p>
+                        <b>Рабочие среды и применения:</b>
+                    </p>
+                    <ul>
+                        <li>
+                             дозирование химических реагентов,
+                        </li>
+                        <li>
+                             транспортировка минеральных и синтетических масел и т.д.
+                        </li>
+                        <li>
+                             холодное водоснабжение (ХВС),
+                        </li>
+                        <li>
+                             горячее водоснабжение (ГВС),
+                        </li>
+                        <li>
+                             теплосабжение с любым стандартным теплоносителем (включая антифризы),
+                        </li>
+                        <li>
+                             паровые системы (паровые линии, паропроводы) до 250 °C максимум,
+                        </li>
+                        <li>
+                             конденсатные линии,
+                        </li>
+                        <li>
+                             технологическое водоснабжение,
+                        </li>
+                        <li>
+                             газопроводы нейтральных и инертных газов, включая природный (натуральный)
+                            газ,
+                        </li>
+                        <li>
+                             водоподготовка и водозабор.
+                        </li>
+                    </ul>
+                </div>
+
                 <div style="margin-bottom: 50px" class="descr_section" id="BDR">
                     <p>
                         Установки насосные УН2Д-А (блок дозирования реагента) предназначены для
@@ -3072,8 +3273,8 @@
                     </li>
                     <li class="item">
                         <div class="logo" style="width: 100%; display: inline-block;">
-                            <a href="https://vk.com/vitehno"><img src="images/logo_vkk.svg" style="max-width: 75px" alt=""></a>
-                            <a href="https://instagram.com/vitehno"><img src="images/logo_instag.svg" style="max-width: 75px" alt=""></a>
+                            <a href="https://vk.com/vitehno" target="_blank"><img src="images/logo_vkk.svg" style="max-width: 75px" alt=""></a>
+                            <a href="https://instagram.com/vitehno" target="_blank"><img src="images/logo_instag.svg" style="max-width: 75px" alt=""></a>
                         </div>
                     </li>
                 </ul>
@@ -3090,13 +3291,17 @@
             function mapNames(name) {
                 return ({
                     'pklapan': 'предохранительного клапана',
+                    'mfilter': 'фильтров магнитно-механических',
                     'oklapan': 'обратного клапана',
                     'undr': 'установки УН1Д-Р',
                     'BDR': 'блоков дозирования реагента (БДР, БР)',
                     'PTP': 'установки для ввода (дозирования) противотурбулентной присадки (ПТП)',
                     'UVDP': 'установки для ввода (дозирования) депрессорных присадок',
                     'vit': 'взрывозащищенных вентиляторов',
-                    'box': 'блок-боксов',
+                    'block-box': 'блок-боксов, бытовок',
+                    'bmcoteln': 'блочно-модульных котельных',
+                    'bmsystvod': 'блочно-модульных систем водоочистки',
+                    'lvm': 'склада легко воспламеняющихся жидкостей',
                     'rds': 'разделителей сред РДС',
                     'parm': 'предохранительной арматуры'
                 })[name];
