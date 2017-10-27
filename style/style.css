@@ -1518,12 +1518,15 @@ text-decoration:none; color:#fff;
     border: solid 2px #C8DCED;
 }
 
-.leftfoto{
-float:left;
-margin: 4px 10px 2px 0px;
-border:1px solid #CCC;
-padding:6px;
-max-width: 300px;
-max-height: 400px;
+.leftfoto {
+    float:left;
+    margin: 4px 10px 2px 0px;
+    border:1px solid #CCC;
+    padding:6px;
+    max-width: 300px;
+    max-height: 400px;
+}
+ .top-buffer {
+    margin-top:20px; 
 }
 
