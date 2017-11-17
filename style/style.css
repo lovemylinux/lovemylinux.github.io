@@ -134,8 +134,8 @@ input.error {
 .button {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 5px 20px;
-    font-size: 0.85em;
+    padding: 10px 40px;
+    font-size: 1em;
 }
 .button.red {
     background-color: #2e6da4;
@@ -1526,7 +1526,29 @@ text-decoration:none; color:#fff;
     max-width: 300px;
     max-height: 400px;
 }
+
  .top-buffer {
     margin-top:20px; 
 }
 
+.inside-discount {
+    position: absolute;
+    cursor: pointer;
+    top: 7%;
+    left: 0%;
+    -o-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+
+.inside-discount img {
+    width: 100px; 
+}
+
+.descr-img {
+    width: 27%;
+}
+
+/********************************/

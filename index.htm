@@ -84,9 +84,23 @@
                 <div class="index_banner">
                     <div class="slider-wrapper theme-default">
                         <div id="slider" class="slider">
-                            
+                            <a href="#" class="control toLeft disabled1"></a>
                             <div class="bodySlider">
                                 <ul id="bodySlider" style="padding:0;">
+                                    <li>
+                                        <div class="slide" style="background: url(fotocatalog/cache/bannerViT.png) no-repeat; background-size: cover;">
+                                            <div class="photo">
+                                            </div>
+                                            <div class="info">     
+                                                 <br>  
+                                                 <br>
+                                                 <br>    
+                                                 <br>
+                                                 <br>                
+                                                <a class="button red" href="company.htm" rel="nofollow">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </li>
                                     <li>
                                         <div class="slide" style="background: url(fotocatalog/cache/backg.png) no-repeat; background-size: cover;">
                                             <div class="photo">
@@ -104,9 +118,49 @@
                                     </li>
                                 </ul>
                             </div>
+                            <a href="#" class="control toRight"></a>
                         </div>
                     </div>
                 </div>
+                <script type="text/javascript" src="js/jquery.carouFredSel.min.js"></script>
+                <script type="text/javascript">
+                // <![CDATA[
+                jQuery(function($){
+                    $('#bodySlider').carouFredSel({
+                        //responsive: true,
+                        direction: 'right',
+                        width: '1220',
+                        height: '380',
+                        align: 'center',
+                        circular: true,
+                        cookie: true,
+                        scroll: {
+                            items:1,
+                            fx: "crossfade",
+                            easing:"quadratic",
+                            duration: 1000,
+                            timeoutDuration: 2000,
+                            pauseOnHover: true
+                        },
+                        auto : true,
+                        prev: {
+                            button: '.toLeft',
+                            key: 'right'
+                        },
+                        next: {
+                            button: '.toRight',
+                            key: 'left'
+                        },
+                        swipe: {
+                            onTouch: true,
+                            onMouse: false
+                        },
+                        items: '1'
+                    });
+                });
+                // ]]>
+                </script>
+
                 <td class="contentBlock">
                     <div class="links">
                         <td class="contentBlock">
