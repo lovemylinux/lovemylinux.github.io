@@ -478,7 +478,7 @@ main
     border: solid 2px #C8DCED;
 }
 .links .item img {
-    margin: 30px 0;
+    margin: 20px 0;
     /*width: 100%;*/
     height: 115px;
 }
@@ -668,7 +668,7 @@ table.shop div.clear:first-child {
 .shop .photo img{
     /*max-width: 100%*/
     height: 115px;
-    margin-bottom: 15px; 
+    margin: 10px 0px 15px 0px; 
 }
 .card .photoRow {
     margin-top: 20px;
@@ -1547,6 +1547,22 @@ text-decoration:none; color:#fff;
     width: 100px; 
 }
 
+.index-discount {
+    position: absolute;
+    cursor: pointer;
+    top: 7%;
+    left: 0%;
+    -o-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+
+.index-discount img {
+    margin-top: 0px !important;
+    max-height: 70px; 
+}
 .descr-img {
     width: 27%;
 }
