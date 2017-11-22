@@ -3510,15 +3510,37 @@
                         });
                        });
         </script>
-        <!-- <script type="text/javascript" charset="utf-8">
+        <script type="text/javascript" charset="utf-8">
             $(document).ready(function(){
-                if(window.location.hash) {
-                  //alert(window.location.hash);
+                var hash = window.location.hash.substr(1);
+                if(hash) {
+                  //alert(hash);
+                  switch (hash) {
+                    case 'vit':
+                      showSection('vit');
+                      break;
+                    case 'rds':
+                      showSection('rds');
+                      break;
+                    case 'undr':
+                      showSection('undr');
+                      break;
+
+                    // case 'bpn':
+                    //   showSection('undr');
+                    //   break;
+                    // case 'box':
+                    //   showSection('box');
+                    //   break;
+                    // case 'parm':
+                    //   showSection('parm');
+                    //   break;
+                  }
                 } else {
                   // Fragment doesn't exist
                 }
             });
-        </script> -->
+        </script>
 </body>
 </html>
 
